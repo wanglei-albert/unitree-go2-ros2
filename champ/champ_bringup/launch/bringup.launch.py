@@ -220,7 +220,7 @@ def generate_launch_description():
                 "footprint_to_odom.yaml",
             ),
         ],
-        remappings=[("odometry/filtered", "odom")],
+        # remappings=[("odometry/filtered", "odom")],
     )
 
     rviz2 = Node(
