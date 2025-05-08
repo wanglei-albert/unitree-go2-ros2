@@ -74,9 +74,9 @@
                     <namespace>imu</namespace>
                     <remapping>~/out:=data</remapping>
                 </ros> -->
-            <ros>
-                <remapping>~/out:=imu</remapping>
-            </ros>
+                <ros>
+                    <remapping>~/out:=imu</remapping>
+                </ros>
                 <initial_orientation_as_reference>false</initial_orientation_as_reference>
             </plugin>
         </sensor>
